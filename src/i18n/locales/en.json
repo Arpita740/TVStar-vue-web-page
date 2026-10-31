@@ -61,33 +61,18 @@
     "text": "The page you are looking for does not exist.",
     "home": "Go to home"
   },
-  "genres": {
-    "drama": "Drama",
-    "comedy": "Comedy",
-    "action": "Action",
-    "crime": "Crime",
-    "sciencefiction": "Science-Fiction",
-    "adventure": "Adventure",
-    "thriller": "Thriller",
-    "romance": "Romance",
-    "mystery": "Mystery",
-    "family": "Family",
-    "supernatural": "Supernatural",
-    "horror": "Horror",
-    "fantasy": "Fantasy",
-    "medical": "Medical",
-    "legal": "Legal",
-    "history": "History",
-    "war": "War",
-    "music": "Music",
-    "western": "Western",
-    "sports": "Sports",
-    "anime": "Anime",
-    "children": "Children",
-    "food": "Food",
-    "travel": "Travel",
-    "nature": "Nature",
-    "espionage": "Espionage",
-    "diy": "DIY"
+   "genre": {
+    "seeAll": "See all",
+    "sortedBy": "Sorted by rating",
+    "count": "{count} shows",
+    "empty": "No shows found for this genre.",
+    "scrollLeft": "Scroll {genre} left",
+    "scrollRight": "Scroll {genre} right",
+    "sortLabel": "Sort by",
+    "sort": {
+      "rating": "Rating (high to low)",
+      "name": "Name (A–Z)",
+      "year": "Year (newest first)"
+    }
   }
 }

@@ -61,33 +61,18 @@
     "text": "De pagina die je zoekt bestaat niet.",
     "home": "Naar home"
   },
-  "genres": {
-    "drama": "Drama",
-    "comedy": "Komedie",
-    "action": "Actie",
-    "crime": "Misdaad",
-    "sciencefiction": "Sciencefiction",
-    "adventure": "Avontuur",
-    "thriller": "Thriller",
-    "romance": "Romantiek",
-    "mystery": "Mysterie",
-    "family": "Familie",
-    "supernatural": "Bovennatuurlijk",
-    "horror": "Horror",
-    "fantasy": "Fantasy",
-    "medical": "Medisch",
-    "legal": "Juridisch",
-    "history": "Geschiedenis",
-    "war": "Oorlog",
-    "music": "Muziek",
-    "western": "Western",
-    "sports": "Sport",
-    "anime": "Anime",
-    "children": "Kinderen",
-    "food": "Eten",
-    "travel": "Reizen",
-    "nature": "Natuur",
-    "espionage": "Spionage",
-    "diy": "Doe-het-zelf"
+    "genre": {
+    "seeAll": "Alles bekijken",
+    "sortedBy": "Gesorteerd op waardering",
+    "count": "{count} series",
+    "empty": "Geen series gevonden voor dit genre.",
+    "scrollLeft": "Scroll {genre} naar links",
+    "scrollRight": "Scroll {genre} naar rechts",
+    "sortLabel": "Sorteren op",
+    "sort": {
+      "rating": "Waardering (hoog naar laag)",
+      "name": "Naam (A–Z)",
+      "year": "Jaar (nieuwste eerst)"
+    }
   }
 }
