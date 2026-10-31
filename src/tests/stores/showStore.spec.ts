@@ -38,7 +38,7 @@ describe('showStore', () => {
     await store.loadShows()
     await store.loadShows()
 
-    expect(fetchShowsPage).toHaveBeenCalledTimes(2) // 2 pages, for ONE load
+    expect(fetchShowsPage).toHaveBeenCalledTimes(1) // 1page, for ONE load
   })
 
   it('stores the error message when the request fails', async () => {

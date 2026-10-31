@@ -25,18 +25,17 @@ export const useShowStore = defineStore('shows', () => {
   )
 
   async function loadShows() {
-    if (shows.value.length || loading.value) return // simple cache
-    loading.value = true
-    error.value = null
-    try {
-      const pages = await Promise.all([fetchShowsPage(0), fetchShowsPage(1)])
-      shows.value = pages.flat()
-    } catch (e) {
-      error.value = e instanceof Error ? e.message : 'Something went wrong'
-    } finally {
-      loading.value = false
-    }
+  if (shows.value.length || loading.value) return
+  loading.value = true
+  error.value = null
+  try {
+    shows.value = await fetchShowsPage(0)
+  } catch (e) {
+    error.value = e instanceof Error ? e.message : 'Failed to load shows'
+  } finally {
+    loading.value = false
   }
+}
 
   return { shows, loading, error, showsByGenre, genres, featuredShow, loadShows }
 })
