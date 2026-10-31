@@ -1,0 +1,93 @@
+{
+  "app": { "skipLink": "Ga naar inhoud", "menu": "Menu openen", "closeMenu": "Menu sluiten" },
+  "nav": {
+    "main": "Hoofdmenu",
+    "home": "Home",
+    "discover": "Ontdekken",
+    "favorites": "Favorieten",
+    "genres": "Genres"
+  },
+  "search": { "label": "Zoek tv-series", "placeholder": "Zoek tv-series…" },
+  "language": { "label": "Taal" },
+  "common": { "backToTop": "Terug naar boven", "loading": "Laden…", "retry": "Opnieuw proberen" },
+  "home": {
+    "loading": "Series laden…",
+    "error": "Series konden niet worden geladen. Probeer het opnieuw."
+  },
+  "genre": {
+    "seeAll": "Alles bekijken",
+    "sortedBy": "Gesorteerd op waardering",
+    "count": "{count} series",
+    "empty": "Geen series gevonden voor dit genre.",
+    "scrollLeft": "Scroll {genre} naar links",
+    "scrollRight": "Scroll {genre} naar rechts"
+  },
+  "discover": {
+    "title": "Ontdekken",
+    "topRated": "Best beoordeelde series",
+    "resultsFor": "Resultaten voor “{query}”",
+    "sortedBy": "Gesorteerd op waardering",
+    "searching": "Zoeken…",
+    "failed": "Zoeken mislukt. Probeer het opnieuw.",
+    "none": "Geen series gevonden."
+  },
+  "card": {
+    "poster": "Poster van {name}",
+    "noImage": "Geen afbeelding",
+    "rating": "Waardering {value}"
+  },
+  "hero": { "topRated": "Best beoordeeld", "viewDetails": "Bekijk details" },
+  "favorites": {
+    "title": "Mijn favorieten",
+    "count": "{count} opgeslagen series",
+    "empty": "Je hebt nog geen favorieten. Tik op het hart bij een serie om hem hier op te slaan.",
+    "toggle": "Favoriet: {name}",
+    "label": "Favoriet"
+  },
+  "details": {
+    "back": "Terug naar home",
+    "error": "Deze serie kon niet worden geladen. Probeer het opnieuw.",
+    "noSummary": "Geen samenvatting beschikbaar.",
+    "premiered": "Première",
+    "language": "Taal",
+    "status": "Status",
+    "runtime": "Speelduur",
+    "minutes": "{n} min",
+    "network": "Zender",
+    "cast": "Acteurs"
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "text": "De pagina die je zoekt bestaat niet.",
+    "home": "Naar home"
+  },
+  "genres": {
+    "drama": "Drama",
+    "comedy": "Komedie",
+    "action": "Actie",
+    "crime": "Misdaad",
+    "sciencefiction": "Sciencefiction",
+    "adventure": "Avontuur",
+    "thriller": "Thriller",
+    "romance": "Romantiek",
+    "mystery": "Mysterie",
+    "family": "Familie",
+    "supernatural": "Bovennatuurlijk",
+    "horror": "Horror",
+    "fantasy": "Fantasy",
+    "medical": "Medisch",
+    "legal": "Juridisch",
+    "history": "Geschiedenis",
+    "war": "Oorlog",
+    "music": "Muziek",
+    "western": "Western",
+    "sports": "Sport",
+    "anime": "Anime",
+    "children": "Kinderen",
+    "food": "Eten",
+    "travel": "Reizen",
+    "nature": "Natuur",
+    "espionage": "Spionage",
+    "diy": "Doe-het-zelf"
+  }
+}

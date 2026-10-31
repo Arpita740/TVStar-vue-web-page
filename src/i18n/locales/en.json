@@ -1,0 +1,93 @@
+{
+  "app": { "skipLink": "Skip to content", "menu": "Open menu", "closeMenu": "Close menu" },
+  "nav": {
+    "main": "Main",
+    "home": "Home",
+    "discover": "Discover",
+    "favorites": "Favorites",
+    "genres": "Genres"
+  },
+  "search": { "label": "Search TV shows", "placeholder": "Search TV shows…" },
+  "language": { "label": "Language" },
+  "common": { "backToTop": "Back to top", "loading": "Loading…", "retry": "Retry" },
+  "home": {
+    "loading": "Loading shows…",
+    "error": "Could not load shows. Please try again."
+  },
+  "genre": {
+    "seeAll": "See all",
+    "sortedBy": "Sorted by rating",
+    "count": "{count} shows",
+    "empty": "No shows found for this genre.",
+    "scrollLeft": "Scroll {genre} left",
+    "scrollRight": "Scroll {genre} right"
+  },
+  "discover": {
+    "title": "Discover",
+    "topRated": "Top rated shows",
+    "resultsFor": "Results for “{query}”",
+    "sortedBy": "Sorted by rating",
+    "searching": "Searching…",
+    "failed": "Search failed. Please try again.",
+    "none": "No shows found."
+  },
+  "card": {
+    "poster": "Poster of {name}",
+    "noImage": "No image",
+    "rating": "Rating {value}"
+  },
+  "hero": { "topRated": "Top rated", "viewDetails": "View details" },
+  "favorites": {
+    "title": "My favorites",
+    "count": "{count} saved shows",
+    "empty": "You have no favorites yet. Tap the heart on a show to save it here.",
+    "toggle": "Favorite {name}",
+    "label": "Favorite"
+  },
+  "details": {
+    "back": "Back to home",
+    "error": "Could not load this show. Please try again.",
+    "noSummary": "No summary available.",
+    "premiered": "Premiered",
+    "language": "Language",
+    "status": "Status",
+    "runtime": "Runtime",
+    "minutes": "{n} min",
+    "network": "Network",
+    "cast": "Cast"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist.",
+    "home": "Go to home"
+  },
+  "genres": {
+    "drama": "Drama",
+    "comedy": "Comedy",
+    "action": "Action",
+    "crime": "Crime",
+    "sciencefiction": "Science-Fiction",
+    "adventure": "Adventure",
+    "thriller": "Thriller",
+    "romance": "Romance",
+    "mystery": "Mystery",
+    "family": "Family",
+    "supernatural": "Supernatural",
+    "horror": "Horror",
+    "fantasy": "Fantasy",
+    "medical": "Medical",
+    "legal": "Legal",
+    "history": "History",
+    "war": "War",
+    "music": "Music",
+    "western": "Western",
+    "sports": "Sports",
+    "anime": "Anime",
+    "children": "Children",
+    "food": "Food",
+    "travel": "Travel",
+    "nature": "Nature",
+    "espionage": "Espionage",
+    "diy": "DIY"
+  }
+}
