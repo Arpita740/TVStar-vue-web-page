@@ -9,15 +9,15 @@ import AppHeader from '@/components/layout/AppHeader.vue'
 import BackToTop from '@/components/common/BackToTop.vue'
 
 const { t } = useI18n()
-const route = useRoute()
+const route = useRoute() //current route
 const store = useShowStore()
 usePreferencesStore() // creating it applies the saved language at startup
 
-const menuOpen = ref(false)
+const menuOpen = ref(false) //for mobile..conside it as drawer..if open then show the sidebar and overlay..if closed then hide the sidebar and overlay
 watch(
   () => route.fullPath,
   () => (menuOpen.value = false),
-) // close the drawer after navigating
+) // close the drawer after navigating..whenever url changes, close the drawer
 
 onMounted(() => store.loadShows())
 </script>

@@ -7,7 +7,7 @@
     "favorites": "Favorieten",
     "genres": "Genres"
   },
-  "search": { "label": "Zoek tv-series", "placeholder": "Zoek tv-series…" },
+  "search": { "label": "Zoek tv-series", "placeholder": "Zoek tv-series… e.g. : Wednesday..." },
   "language": { "label": "Taal" },
   "common": { "backToTop": "Terug naar boven", "loading": "Laden…", "retry": "Opnieuw proberen" },
   "home": {

@@ -92,4 +92,4 @@ Hosted on Netlify from the `main` branch. Build command `npm run build`, publish
 
 ## Possible improvements
 
-End-to-end tests (Playwright), focus trapping in the mobile menu, and a backend with accounts for synced favorites and user ratings.
+End-to-end tests (Playwright),a voice input for searching and a backend with accounts for synced favorites and user ratings.

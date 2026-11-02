@@ -7,7 +7,7 @@
     "favorites": "Favorites",
     "genres": "Genres"
   },
-  "search": { "label": "Search TV shows", "placeholder": "Search TV shows…" },
+  "search": { "label": "Search TV shows", "placeholder": "Search TV shows…   e.g. : Wednesday..." },
   "language": { "label": "Language" },
   "common": { "backToTop": "Back to top", "loading": "Loading…", "retry": "Retry" },
   "home": {
