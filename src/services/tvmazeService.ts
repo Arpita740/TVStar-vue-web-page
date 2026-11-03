@@ -1,6 +1,7 @@
-import type { Show } from '@/types/show'
+import type { CastMember, Show } from '@/types/show'
 
 const BASE_URL = 'https://api.tvmaze.com'
+type Person = CastMember['person'] // an actor: same shape we already use for the cast list
 
 async function request<T>(path: string, signal?: AbortSignal): Promise<T> {
   const res = await fetch(`${BASE_URL}${path}`, { signal })
@@ -21,4 +22,23 @@ export async function searchShows(query: string, signal?: AbortSignal): Promise<
     signal,
   )
   return data.map((d) => d.show)
+}
+
+// Actors whose name matches the text
+export async function searchPeople(query: string, signal?: AbortSignal): Promise<Person[]> {
+  const data = await request<{ person: Person }[]>(
+    `/search/people?q=${encodeURIComponent(query)}`,
+    signal,
+  )
+  return data.map((d) => d.person)
+}
+
+// Shows an actor appeared in. embed=show puts the full show inside each credit.
+// "self" credits (the person appearing as themselves, e.g. on talk shows) are skipped.
+export async function fetchShowsByPerson(personId: number, signal?: AbortSignal): Promise<Show[]> {
+  const data = await request<{ self: boolean; _embedded: { show: Show } }[]>(
+    `/people/${personId}/castcredits?embed=show`,
+    signal,
+  )
+  return data.filter((d) => !d.self).map((d) => d._embedded.show)
 }

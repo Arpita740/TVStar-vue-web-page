@@ -7,7 +7,10 @@
     "favorites": "Favorieten",
     "genres": "Genres"
   },
-  "search": { "label": "Zoek tv-series", "placeholder": "Zoek tv-series… e.g. : Wednesday..." },
+  "search": {
+    "label": "Zoek op serie of acteur",
+    "placeholder": "Zoek op serie of acteur, bijv. Wednesday…"
+  },
   "language": { "label": "Taal" },
   "common": { "backToTop": "Terug naar boven", "loading": "Laden…", "retry": "Opnieuw proberen" },
   "home": {
@@ -15,24 +18,25 @@
     "error": "Series konden niet worden geladen. Probeer het opnieuw."
   },
   "genre": {
-  "seeAll": "Alles bekijken",
-  "sortedBy": "Gesorteerd op waardering",
-  "count": "{count} series",
-  "empty": "Geen series gevonden voor dit genre.",
-  "scrollLeft": "Scroll {genre} naar links",
-  "scrollRight": "Scroll {genre} naar rechts",
-  "sortLabel": "Sorteren op",
-  "sort": {
-    "rating": "Waardering (hoog naar laag)",
-    "name": "Naam (A–Z)",
-    "year": "Jaar (nieuwste eerst)"
-  }
-},
+    "seeAll": "Alles bekijken",
+    "sortedBy": "Gesorteerd op waardering",
+    "count": "{count} series",
+    "empty": "Geen series gevonden voor dit genre.",
+    "scrollLeft": "Scroll {genre} naar links",
+    "scrollRight": "Scroll {genre} naar rechts",
+    "sortLabel": "Sorteren op",
+    "sort": {
+      "rating": "Waardering (hoog naar laag)",
+      "name": "Naam (A–Z)",
+      "year": "Jaar (nieuwste eerst)"
+    }
+  },
   "discover": {
     "title": "Ontdekken",
     "topRated": "Best beoordeelde series",
     "resultsFor": "Resultaten voor “{query}”",
     "sortedBy": "Gesorteerd op waardering",
+    "includesCast": "Inclusief series met {names}",
     "searching": "Zoeken…",
     "failed": "Zoeken mislukt. Probeer het opnieuw.",
     "none": "Geen series gevonden."
@@ -66,6 +70,5 @@
     "title": "Pagina niet gevonden",
     "text": "De pagina die je zoekt bestaat niet.",
     "home": "Naar home"
-  
   }
 }

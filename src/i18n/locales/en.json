@@ -35,7 +35,8 @@
     "sortedBy": "Sorted by rating",
     "searching": "Searching…",
     "failed": "Search failed. Please try again.",
-    "none": "No shows found."
+    "none": "No shows found.",
+    "includesCast": "Includes shows with {names}"
   },
   "card": {
     "poster": "Poster of {name}",
