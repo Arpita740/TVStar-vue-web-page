@@ -11,7 +11,7 @@ import BackToTop from '@/components/common/BackToTop.vue'
 const { t } = useI18n()
 const route = useRoute() //current route
 const store = useShowStore()
-usePreferencesStore() // creating it applies the saved language at startup
+usePreferencesStore() // initializes access to the preferences store.
 
 const menuOpen = ref(false) //for mobile..conside it as drawer..if open then show the sidebar and overlay..if closed then hide the sidebar and overlay
 watch(

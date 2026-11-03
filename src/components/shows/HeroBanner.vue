@@ -53,9 +53,9 @@ const genres = computed(() => props.show.genres.map(genreLabel).join(' • '))
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(10, 6, 18, 0.95) 0%,
-    rgba(26, 15, 51, 0.7) 55%,
-    rgba(10, 6, 18, 0.2) 100%
+    rgba(10, 6, 18, 0.98) 0%,
+    rgba(26, 15, 51, 0.82) 55%,
+    rgba(10, 6, 18, 0.3) 100%
   );
 }
 .content {
@@ -73,8 +73,10 @@ h1 {
   margin: 0 0 0.5rem;
 }
 .genres {
-  color: var(--accent);
+  color: #fcd2d2;
+  font-weight: 600;
   margin: 0 0 1rem;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
 }
 .summary {
   display: -webkit-box;

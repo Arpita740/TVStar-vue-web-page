@@ -9,14 +9,14 @@ export function useLazyList<T>(items: MaybeRefOrGetter<T[]>, pageSize: number) {
   const visible = computed(() => toValue(items).slice(0, count.value))
   const hasMore = computed(() => count.value < toValue(items).length)
 
-  // A new list (e.g. another genre): start again from the first chunk
+  // A new list starts when new genre selected
   watch(
     () => toValue(items),
-    () => (count.value = pageSize),
+    () => (count.value = pageSize), 
   )
-
+                                                        
   const sentinel = ref<HTMLElement | null>(null)
-  let observer: IntersectionObserver | null = null
+  let observer: IntersectionObserver | null = null //checks if cards are in view, if so, loads more cards    j  
 
   watch(sentinel, (el) => {
     observer?.disconnect()

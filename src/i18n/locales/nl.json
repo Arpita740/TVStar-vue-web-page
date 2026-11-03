@@ -15,13 +15,19 @@
     "error": "Series konden niet worden geladen. Probeer het opnieuw."
   },
   "genre": {
-    "seeAll": "Alles bekijken",
-    "sortedBy": "Gesorteerd op waardering",
-    "count": "{count} series",
-    "empty": "Geen series gevonden voor dit genre.",
-    "scrollLeft": "Scroll {genre} naar links",
-    "scrollRight": "Scroll {genre} naar rechts"
-  },
+  "seeAll": "Alles bekijken",
+  "sortedBy": "Gesorteerd op waardering",
+  "count": "{count} series",
+  "empty": "Geen series gevonden voor dit genre.",
+  "scrollLeft": "Scroll {genre} naar links",
+  "scrollRight": "Scroll {genre} naar rechts",
+  "sortLabel": "Sorteren op",
+  "sort": {
+    "rating": "Waardering (hoog naar laag)",
+    "name": "Naam (A–Z)",
+    "year": "Jaar (nieuwste eerst)"
+  }
+},
   "discover": {
     "title": "Ontdekken",
     "topRated": "Best beoordeelde series",
@@ -60,19 +66,6 @@
     "title": "Pagina niet gevonden",
     "text": "De pagina die je zoekt bestaat niet.",
     "home": "Naar home"
-  },
-    "genre": {
-    "seeAll": "Alles bekijken",
-    "sortedBy": "Gesorteerd op waardering",
-    "count": "{count} series",
-    "empty": "Geen series gevonden voor dit genre.",
-    "scrollLeft": "Scroll {genre} naar links",
-    "scrollRight": "Scroll {genre} naar rechts",
-    "sortLabel": "Sorteren op",
-    "sort": {
-      "rating": "Waardering (hoog naar laag)",
-      "name": "Naam (A–Z)",
-      "year": "Jaar (nieuwste eerst)"
-    }
+  
   }
 }

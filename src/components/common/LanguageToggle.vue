@@ -3,7 +3,7 @@ import { useI18n } from 'vue-i18n'
 import { usePreferencesStore } from '@/stores/preferencesStore'
 
 const { t } = useI18n()
-const prefs = usePreferencesStore()
+const prefs = usePreferencesStore() //gives access to pinia pref store
 const languages = ['en', 'nl'] as const
 </script>
 

@@ -15,13 +15,19 @@
     "error": "Could not load shows. Please try again."
   },
   "genre": {
-    "seeAll": "See all",
-    "sortedBy": "Sorted by rating",
-    "count": "{count} shows",
-    "empty": "No shows found for this genre.",
-    "scrollLeft": "Scroll {genre} left",
-    "scrollRight": "Scroll {genre} right"
-  },
+  "seeAll": "See all",
+  "sortedBy": "Sorted by rating",
+  "count": "{count} shows",
+  "empty": "No shows found for this genre.",
+  "scrollLeft": "Scroll {genre} left",
+  "scrollRight": "Scroll {genre} right",
+  "sortLabel": "Sort by",
+  "sort": {
+    "rating": "Rating (high to low)",
+    "name": "Name (A–Z)",
+    "year": "Year (newest first)"
+  }
+},
   "discover": {
     "title": "Discover",
     "topRated": "Top rated shows",
@@ -60,19 +66,5 @@
     "title": "Page not found",
     "text": "The page you are looking for does not exist.",
     "home": "Go to home"
-  },
-   "genre": {
-    "seeAll": "See all",
-    "sortedBy": "Sorted by rating",
-    "count": "{count} shows",
-    "empty": "No shows found for this genre.",
-    "scrollLeft": "Scroll {genre} left",
-    "scrollRight": "Scroll {genre} right",
-    "sortLabel": "Sort by",
-    "sort": {
-      "rating": "Rating (high to low)",
-      "name": "Name (A–Z)",
-      "year": "Year (newest first)"
-    }
   }
 }
