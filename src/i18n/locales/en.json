@@ -12,7 +12,7 @@
   "common": { "backToTop": "Back to top", "loading": "Loading…", "retry": "Retry" },
   "home": {
     "loading": "Loading shows…",
-    "error": "Could not load shows. Please try again."
+    "error": "Could not load shows. Please check your network connection and try again."
   },
   "genre": {
   "seeAll": "See all",
@@ -34,7 +34,7 @@
     "resultsFor": "Results for “{query}”",
     "sortedBy": "Sorted by rating",
     "searching": "Searching…",
-    "failed": "Search failed. Please try again.",
+    "failed": "Search failed. Please check your network connection and try again.",
     "none": "No shows found.",
     "includesCast": "Includes shows with {names}"
   },
@@ -53,7 +53,7 @@
   },
   "details": {
     "back": "Back to home",
-    "error": "Could not load this show. Please try again.",
+    "error": "Could not load this show. Please check your network connection and try again.",
     "noSummary": "No summary available.",
     "premiered": "Premiered",
     "language": "Language",

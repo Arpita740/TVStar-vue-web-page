@@ -15,7 +15,7 @@
   "common": { "backToTop": "Terug naar boven", "loading": "Laden…", "retry": "Opnieuw proberen" },
   "home": {
     "loading": "Series laden…",
-    "error": "Series konden niet worden geladen. Probeer het opnieuw."
+    "error": "Series konden niet worden geladen. Controleer je internetverbinding en probeer het opnieuw."
   },
   "genre": {
     "seeAll": "Alles bekijken",
@@ -38,7 +38,7 @@
     "sortedBy": "Gesorteerd op waardering",
     "includesCast": "Inclusief series met {names}",
     "searching": "Zoeken…",
-    "failed": "Zoeken mislukt. Probeer het opnieuw.",
+    "failed": "Zoeken mislukt. Controleer je internetverbinding en probeer het opnieuw.",
     "none": "Geen series gevonden."
   },
   "card": {
@@ -56,7 +56,7 @@
   },
   "details": {
     "back": "Terug naar home",
-    "error": "Deze serie kon niet worden geladen. Probeer het opnieuw.",
+    "error": "Deze serie kon niet worden geladen. Controleer je internetverbinding en probeer het opnieuw.",
     "noSummary": "Geen samenvatting beschikbaar.",
     "premiered": "Première",
     "language": "Taal",
