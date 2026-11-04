@@ -28,6 +28,7 @@ const favorites = useFavoritesStore()
         </li>
         <li>
           <RouterLink :to="{ name: 'favorites' }">
+           <!-- cross icon for favorites -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 18 18" height="18px" width="18px" fill="#EA3323"><path d="M10,17L8.96,16.06q-2.08-1.85-3.44-3.18T3.39,10.53T2.3,8.65T2,6.9Q2,5.04 3.27,3.77T6.4,2.5q1.02,0 1.98,0.44T10,4.17q0.67-0.79 1.63-1.23T13.6,2.5q1.85,0 3.12,1.27T18,6.9q0,0.9-0.29,1.73t-1.07,1.85t-2.15,2.36Q13.13,14.19 11,16.1L10,17Zm0-2.02q1.94-1.73 3.19-2.95t1.99-2.13t1.03-1.61T16.5,6.9q0-1.23-0.83-2.06T13.6,4q-0.73,0-1.36,0.3T11.15,5.15L10.42,6H9.58L8.85,5.15Q8.4,4.6 7.74,4.3T6.4,4Q5.17,4 4.33,4.83T3.5,6.9q0,0.69 0.27,1.36T4.76,9.83t1.98,2.13T10,14.98Zm0-5.5Z"/></svg> {{ t('nav.favorites') }}
             <span v-if="favorites.count" class="badge">{{ favorites.count }}</span>
           </RouterLink>
