@@ -17,7 +17,7 @@ const favorites = useFavoritesStore()
     <div class="top">
       <RouterLink to="/" class="brand"><svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 18 18" height="18px" width="18px" fill="#FFFFFF"><path d="M7.25,13h1.5V8.5H9.92L11.6,13h1.15L15,7H13.4l-1.21,3.25L10.96,7H5V8.5H7.25V13ZM4.5,17q-0.62,0-1.06-0.44T3,15.5V4.5Q3,3.88 3.44,3.44T4.5,3h11q0.62,0 1.06,0.44T17,4.5v11q0,0.62-0.44,1.06T15.5,17H4.5Zm0-1.5h11V4.5H4.5v11Zm0-11v11V4.5Z"/></svg> TVStar</RouterLink>
       <button type="button" class="close" :aria-label="t('app.closeMenu')" @click="emit('close')">
-        ✕
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 18 18" height="18px" width="18px" fill="#EA3323"><path d="M6.06,15L5,13.94L8.94,10L5,6.06L6.06,5L10,8.94L13.94,5L15,6.06L11.06,10L15,13.94L13.94,15L10,11.06L6.06,15Z"/></svg>
       </button>
     </div>
 
