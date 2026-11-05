@@ -1,7 +1,7 @@
 import type { CastMember, Show } from '@/types/show'
 
 const BASE_URL = 'https://api.tvmaze.com'
-const REQUEST_TIMEOUT = 10_000 // 10 seconds
+const REQUEST_TIMEOUT = 10000 // 10 seconds
 
 type Person = CastMember['person']
 

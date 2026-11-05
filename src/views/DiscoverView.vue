@@ -23,7 +23,8 @@ const matchedPeople = ref<string[]>([]) // actors whose shows are included in th
 const loading = ref(false)
 const failed = ref(false)
 
-const topRated = computed(() => sortByRating(shows.value).slice(0, 40))
+const topRated = computed(() => sortByRating(shows.value).slice(0, 40)) // top 40 shows by rating, for when there's no search query
+
 const visibleShows = computed(() => (query.value ? results.value : topRated.value))
 
 const subtitle = computed(() => {
@@ -44,7 +45,7 @@ function uniqueById(list: Show[]): Show[] {
   })
 }
 
-let controller: AbortController | null = null
+let controller: AbortController | null = null // to cancel the previous request if a new one is made
 
 async function runSearch(q: string) {
   controller?.abort() // the previous request is outdated now

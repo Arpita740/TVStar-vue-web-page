@@ -19,7 +19,7 @@ const headingId = `${toGenreId(props.genre)}-title`
 const atStart = ref(true)
 const atEnd = ref(true)
 
-function updateEdges() {
+function updateEdges() { 
   const el = scroller.value
   if (!el) return
   atStart.value = el.scrollLeft <= 1

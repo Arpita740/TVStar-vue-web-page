@@ -38,5 +38,5 @@ export function useLazyList<T>(items: MaybeRefOrGetter<T[]>, pageSize: number) {
 
   onBeforeUnmount(() => observer?.disconnect())
 
-  return { visible, hasMore, sentinel }
+  return { visible, hasMore, sentinel } //sentinel is the element that triggers loading more items when it comes into view
 }
